@@ -1,4 +1,5 @@
 import { defineVersionedConfig } from "@viteplus/versions";
+import { latest, sidebars } from "./versions.mts";
 
 // https://vitepress.dev/reference/site-config
 export default defineVersionedConfig({
@@ -7,7 +8,7 @@ export default defineVersionedConfig({
 
   // Version configuration
   versionsConfig: {
-    current: "1.21.11",
+    current: latest,
     versionSwitcher: false,
 
     hooks: {
@@ -25,13 +26,27 @@ export default defineVersionedConfig({
       root: [{ text: "Home", link: "/" }, { component: "VersionSwitcher" }],
     },
 
-    sidebar: [
+    sidebar: sidebars,
+
+    socialLinks: [
+      { icon: "github", ariaLabel: "github repository", link: "https://github.com/Enchanted-Games/shaders.enchanted.games" },
       {
-        text: "Examples",
-        items: [{ text: "Markdown Examples", link: "/markdown-examples" }],
+        icon: {
+          svg: `
+          <svg width="32" height="32" viewBox="0 0 32 32">
+            <image width="32" height="32" xlink:href="https://enchanted.games/favicon.ico"/>
+          </svg>
+          `,
+        },
+        ariaLabel: "enchanted games' website",
+        link: "https://enchanted.games",
       },
     ],
+  },
 
-    socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
+  markdown: {
+    image: {
+      lazyLoading: true,
+    },
   },
 });
