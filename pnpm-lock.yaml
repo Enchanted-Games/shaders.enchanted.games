@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@viteplus/versions':
+        specifier: ^2.0.6
+        version: 2.0.6(vitepress@2.0.0-alpha.15(postcss@8.5.6))
       vue:
         specifier: ^3.5.27
         version: 3.5.27
@@ -205,6 +208,10 @@ packages:
 
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
+
+  '@remotex-labs/xansi@1.3.3':
+    resolution: {integrity: sha512-P5qKSYLA5508Wt/lh4gUsGW7VO30hL6alswS713WnrYzo5xGknG2O5OddD1Ae/dRzP8e0H1rBJuf1v1ztu3IFQ==}
+    engines: {node: '>=20'}
 
   '@rolldown/pluginutils@1.0.0-beta.53':
     resolution: {integrity: sha512-vENRlFU4YbrwVqNDZ7fLvy+JR1CRkyr01jhSiDpE1u6py3OMzQfztQU2jxykW3ALNxO4kSlqIDeYyD0Y9RcQeQ==}
@@ -404,6 +411,15 @@ packages:
     peerDependencies:
       vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
       vue: ^3.2.25
+
+  '@viteplus/versions@2.0.6':
+    resolution: {integrity: sha512-13XNud+sCGTOs1L6Z0Ru7TxwkYmTknGSm/KU7/5wXR7vwMPqaPByC/A4H6R2R3aF8uK4Y1Y9bXyBQYJyYc3/Cw==}
+    engines: {node: '>=20'}
+    peerDependencies:
+      vitepress: ^1.6.4 || ^2.0.0
+    peerDependenciesMeta:
+      vitepress:
+        optional: true
 
   '@vue/compiler-core@3.5.27':
     resolution: {integrity: sha512-gnSBQjZA+//qDZen+6a2EdHqJ68Z7uybrMf3SPjEGgG4dicklwDVmMC1AeIHxtLVPT7sn6sH1KOO+tS6gwOUeQ==}
@@ -870,6 +886,8 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
+  '@remotex-labs/xansi@1.3.3': {}
+
   '@rolldown/pluginutils@1.0.0-beta.53': {}
 
   '@rollup/rollup-android-arm-eabi@4.57.0':
@@ -1015,6 +1033,12 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.53
       vite: 7.3.1
       vue: 3.5.27
+
+  '@viteplus/versions@2.0.6(vitepress@2.0.0-alpha.15(postcss@8.5.6))':
+    dependencies:
+      '@remotex-labs/xansi': 1.3.3
+    optionalDependencies:
+      vitepress: 2.0.0-alpha.15(postcss@8.5.6)
 
   '@vue/compiler-core@3.5.27':
     dependencies:
