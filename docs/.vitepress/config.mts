@@ -1,6 +1,8 @@
 import { defineVersionedConfig } from "@viteplus/versions";
 import { latest, sidebars } from "./versions.mts";
 
+export const githubPage: string = "https://github.com/Enchanted-Games/shaders.enchanted.games";
+
 // https://vitepress.dev/reference/site-config
 export default defineVersionedConfig({
   title: "Vanilla Shader Docs",
@@ -22,13 +24,13 @@ export default defineVersionedConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: {
-      root: [{ text: "Home", link: "/" }, { component: "VersionSwitcher" }],
+      root: [{ text: "Home", link: "/" }, { text: "Contribute", link: githubPage }, { component: "VersionSwitcher" }],
     },
 
     sidebar: sidebars,
 
     socialLinks: [
-      { icon: "github", ariaLabel: "github repository", link: "https://github.com/Enchanted-Games/shaders.enchanted.games" },
+      { icon: "github", ariaLabel: "github repository", link: githubPage },
       {
         icon: {
           svg: `

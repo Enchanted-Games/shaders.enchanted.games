@@ -10,11 +10,4 @@ export const sidebars: SidebarType = {
       items: [{ text: "Markdown Examples", link: "/markdown-examples" }],
     },
   ],
-
-  "1.21.10": [
-    {
-      text: "Examples",
-      items: [{ text: "Markdown Examples 1.21.10", link: "/markdown-examples" }],
-    },
-  ],
 };

@@ -8,11 +8,14 @@ hero:
   tagline: Unoffical documentation for Minecraft Java Edition resourcepack shaders
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Introduction
+      link: /introduction
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Core shaders
+      link: /shaders/core
+    - theme: alt
+      text: Post effects
+      link: /shaders/post
 
 features:
   - title: Feature A
@@ -27,6 +30,8 @@ features:
 This documentation is a WIP, things may be incomplete or missing!
 :::
 
-This documentation is open for contributions! If you spot anything missing, incorrect, or just want to help out, feel free to contribute to the [GitHub repo](https://github.com/Enchanted-Games/shaders.enchanted.games)!
+::: danger
+Modifying shaders with resourcepacks is not a supported feature by Mojang! It may change or be removed at any time, do so at your own risk.
+:::
 
-![image](/assets/1.21.11/images/stone.png)
+This documentation is open for contributions! If you spot anything missing, incorrect, or just want to help out, feel free to contribute to the [GitHub repo](https://github.com/Enchanted-Games/shaders.enchanted.games)!
