@@ -6,8 +6,24 @@ export const sidebars: SidebarType = {
   // root used for current version and default for versions without a custom navbar
   root: [
     {
-      text: "Examples",
-      items: [{ text: "Markdown Examples", link: "/markdown-examples" }],
+      text: "Introduction",
+      items: [
+        { text: "Introduction", link: "/introduction" },
+        { text: "Useful tools", link: "/useful-tools" },
+      ],
+    },
+    {
+      text: "Shaders",
+      items: [
+        { text: "Core shaders", link: "/shaders/core" },
+        { text: "Includes", link: "/shaders/include" },
+        { text: "Post effects", link: "/shaders/post" },
+        { text: "Uniform blocks", link: "/shaders/uniforms" },
+      ],
+    },
+    {
+      text: "Tutorials",
+      items: [{ text: "Coming soon", link: "" }],
     },
   ],
 };
