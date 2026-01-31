@@ -21,7 +21,6 @@ export default defineVersionedConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-
     nav: {
       root: [{ text: "Home", link: "/" }, { component: "VersionSwitcher" }],
     },
@@ -33,8 +32,8 @@ export default defineVersionedConfig({
       {
         icon: {
           svg: `
-          <svg width="32" height="32" viewBox="0 0 32 32">
-            <image width="32" height="32" xlink:href="https://enchanted.games/favicon.ico"/>
+          <svg width="128" height="128" viewBox="0 0 128 128">
+            <image width="128" height="128" xlink:href="https://enchanted.games/favicon.ico"/>
           </svg>
           `,
         },
@@ -42,6 +41,10 @@ export default defineVersionedConfig({
         link: "https://enchanted.games",
       },
     ],
+
+    footer: {
+      message: "Not an official Minecraft product. Not approved by, associated with, or endorsed by Mojang or Microsoft.",
+    },
   },
 
   markdown: {

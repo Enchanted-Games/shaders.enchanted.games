@@ -22,3 +22,11 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+::: warning
+This documentation is a WIP, things may be incomplete or missing!
+:::
+
+This documentation is open for contributions! If you spot anything missing, incorrect, or just want to help out, feel free to contribute to the [GitHub repo](https://github.com/Enchanted-Games/shaders.enchanted.games)!
+
+![image](/assets/1.21.11/images/stone.png)
