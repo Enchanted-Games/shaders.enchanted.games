@@ -18,12 +18,10 @@ hero:
       link: /shaders/post
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Documentation
+    details: Docs for post processing effects, core shaders, uniforms, and more
+  - title: Tutorials
+    details: Guides on how to do specific things, such as isolating specific objects, or making things emissive
 ---
 
 ::: warning
