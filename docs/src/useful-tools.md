@@ -21,4 +21,3 @@ Despite its name, this extension provides tools for Minecraft resource packs in 
 ### [Stop Unloading My Resourcepacks](https://modrinth.com/mod/stop-unloading-my-resourcepacks)
 
 Adds a debug keybind (<kbd>F3</kbd> + <kbd>R</kbd>) to hot reload shaders, and stops the game from disabling all resource packs if a shader related error occurs.
-`t`
