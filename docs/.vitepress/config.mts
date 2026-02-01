@@ -53,4 +53,6 @@ export default defineVersionedConfig({
       lazyLoading: true,
     },
   },
+
+  ignoreDeadLinks: true,
 });
