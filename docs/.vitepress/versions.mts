@@ -16,8 +16,10 @@ export const sidebars: SidebarType = {
       text: "Shaders",
       items: [
         { text: "Core shaders", link: "/shaders/core" },
+        { text: "List of core shaders", link: "/shaders/core-list" },
         { text: "Includes", link: "/shaders/include" },
         { text: "Post effects", link: "/shaders/post" },
+        { text: "List of post effects", link: "/shaders/post-list" },
         { text: "Uniform blocks", link: "/shaders/uniforms" },
       ],
     },

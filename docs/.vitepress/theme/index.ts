@@ -4,6 +4,9 @@ import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import VersionSwitcher from "@viteplus/versions/components/version-switcher.component.vue";
 import "./style.css";
+import UniformLink from "../components/UniformLink.vue";
+import Sampler from "../components/Sampler.vue";
+import DefineDirective from "../components/DefineDirective.vue";
 
 export default {
   extends: DefaultTheme,
@@ -14,5 +17,8 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component("VersionSwitcher", VersionSwitcher);
+    app.component("UniformLink", UniformLink);
+    app.component("Sampler", Sampler);
+    app.component("DefineDirective", DefineDirective);
   },
 } satisfies Theme;

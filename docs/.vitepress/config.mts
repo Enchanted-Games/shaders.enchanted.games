@@ -43,6 +43,14 @@ export default defineVersionedConfig({
       },
     ],
 
+    lastUpdated: {
+      text: "Updated at",
+      formatOptions: {
+        dateStyle: "medium",
+        timeStyle: "short",
+      },
+    },
+
     footer: {
       message: "Not an official Minecraft product. Not approved by, associated with, or endorsed by Mojang or Microsoft.",
     },
@@ -55,4 +63,5 @@ export default defineVersionedConfig({
   },
 
   ignoreDeadLinks: true,
+  lastUpdated: true,
 });
