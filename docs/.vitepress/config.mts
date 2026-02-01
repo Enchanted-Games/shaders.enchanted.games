@@ -6,7 +6,7 @@ export const githubPage: string = "https://github.com/Enchanted-Games/shaders.en
 // https://vitepress.dev/reference/site-config
 export default defineVersionedConfig({
   title: "Vanilla Shader Docs",
-  description: "Unoffical documentation for Minecraft: Java Edition resourcepack shaders",
+  description: "Unoffical documentation for Minecraft: Java Edition resource pack shaders",
 
   // Version configuration
   versionsConfig: {

@@ -1,6 +1,6 @@
 # Useful tools
 
-Tools that help make working with vanilla shaders a little easier. All of these are optional and are not strictly required to modify vanilla shaders.
+Tools that make working with vanilla shaders a little easier. All of these are optional and are not strictly required to modify vanilla shaders.
 
 ## VSCode extensions
 

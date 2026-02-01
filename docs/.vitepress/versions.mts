@@ -3,7 +3,7 @@ import { SidebarType } from "@viteplus/versions";
 export const latest: string = "1.21.11";
 
 export const sidebars: SidebarType = {
-  // root used for current version and default for versions without a custom navbar
+  // root used for latest version and default for versions without a custom navbar
   root: [
     {
       text: "Introduction",

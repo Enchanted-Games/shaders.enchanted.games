@@ -6,11 +6,11 @@ This documentation is a WIP, things may be incomplete or missing! This documenta
 
 ## What are vanilla shaders?
 
-Vanilla shaders (sometimes referred to as 'core shaders' or just 'shaders') are shaders the game uses to render certain parts of the game, and can be modified using [resource packs](https://minecraft.wiki/w/Resource_pack). These are different from 'shaderpacks' provided by mods such as Iris or OptiFine as they aren't capable of some of the more complex graphical effects typically seen in shaderpacks.
+Vanilla shaders (sometimes referred to as 'core shaders' or just 'shaders') are shaders which are used to render certain parts of the game, and can be modified using [resource packs](https://minecraft.wiki/w/Resource_pack). These are different from 'shader packs' provided by mods such as Iris or OptiFine as they aren't as capable of some of the more complex graphical effects typically seen in shader packs.
 
 ## Shaders in Minecraft
 
-Minecraft has two distinct kinds of shader: [core shaders](/shaders/core) used for rendering game object such as guis, blocks or entities, and [post effects](/shaders/post) used to render full-screen effects such as the green overlay when spectating a creeper or menu background blur. [Include](/shaders/include) shaders also exist which contain common utility functions to be re-used across multiple post or core shaders.
+Minecraft has two distinct kinds of shader: [core shaders](/shaders/core) used for rendering game object such as guis, blocks or entities, and [post effects](/shaders/post) used to render full-screen effects such as the green overlay when spectating a creeper or menu background blur. [Include](/shaders/include) shaders also exist which contain common utility functions or definitions that can be used across multiple core or post shaders.
 
 The game currently uses OpenGL 3.3 Core Profile, and uses the [OpenGL Shading Language (GLSL)](https://wikis.khronos.org/opengl/OpenGL_Shading_Language) for its shaders.
 Both fragment and vertex shaders are used by the game
