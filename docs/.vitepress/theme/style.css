@@ -78,6 +78,28 @@
 }
 
 /**
+ * Colors: Text
+ *
+ * - `text-1`: Used for primary text.
+ *
+ * - `text-2`: Used for muted texts, such as "inactive menu" or "info texts".
+ *
+ * - `text-3`: Used for subtle texts, such as "placeholders" or "caret icon".
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-c-text-1: hsl(347, 6%, 25%);
+  --vp-c-text-2: hsl(347, 2%, 41%);
+  --vp-c-text-3: hsl(347, 1%, 58%);
+}
+
+.dark {
+  --vp-c-text-1: hsl(60, 12%, 86%);
+  --vp-c-text-2: hsl(240, 4%, 61%);
+  --vp-c-text-3: hsl(240, 3%, 43%);
+}
+
+/**
  * Component: Button
  * -------------------------------------------------------------------------- */
 
@@ -134,4 +156,9 @@
 
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+:root {
+  --docsearch-search-button-background: var(--vp-c-bg-alt) !important;
+  --docsearch-search-button-text-color: var(--vp-c-text-2) !important;
 }

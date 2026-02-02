@@ -26,6 +26,10 @@ export default defineVersionedConfig({
       root: [{ text: "Home", link: "/" }, { text: "Contribute", link: githubPage }, { component: "VersionSwitcher" }],
     },
 
+    search: {
+      provider: "local",
+    },
+
     sidebar: sidebars,
 
     socialLinks: [
