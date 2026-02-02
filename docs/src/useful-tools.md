@@ -6,7 +6,7 @@ Tools that make working with vanilla shaders a little easier. All of these are o
 
 ### [glsl-analyzer](https://marketplace.visualstudio.com/items?itemName=nolanderc.glsl-analyzer)
 
-A glsl language server for VSCode. While this doesn't support some minecraft specific things such as the `moj_import` directive, it is still a very handy extension to have for autocompletion, formatting, and inline documentation of glsl functions.
+A glsl language server for VSCode. While this doesn't support some minecraft specific things such as the `#moj_import` directive, it is still a very handy extension to have for autocompletion, formatting, and inline documentation of glsl functions.
 
 ### [Shader languages support](https://marketplace.visualstudio.com/items?itemName=slevesque.shader)
 

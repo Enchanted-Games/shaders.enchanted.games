@@ -10,7 +10,7 @@ const props = defineProps({
   },
 });
 
-let defineString = `#${props.name}`;
+let defineString = `${props.name}`;
 if (props.type) {
   defineString += ` (${props.type})`;
 }

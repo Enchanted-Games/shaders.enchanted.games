@@ -4,11 +4,11 @@
 
 Renders most entities including but not limited to:
 
-- Mobs
+- Mobs and other entities
 - Items (in the world and in inventories) that can be used to place non-translucent blocks
-- End crystal beams
 - Block entities that use special rendering such as banners and chests
 - Equipment and other overlays such as the charged creeper energy swirls
+- End crystal beams
 
 ### Uniforms
 
