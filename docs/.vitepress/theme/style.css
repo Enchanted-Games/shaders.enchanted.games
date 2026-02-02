@@ -49,10 +49,10 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: hsl(347, 100%, 78%);
-  --vp-c-brand-2: hsl(347, 74%, 63%);
-  --vp-c-brand-3: hsl(347, 70%, 55%);
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+  --vp-c-brand-1: hsl(347 100% 68%);
+  --vp-c-brand-2: hsl(347 74% 53%);
+  --vp-c-brand-3: hsl(347 70% 45%);
+  --vp-c-brand-soft: hsl(347 74% 53% / 0.2);
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
@@ -68,6 +68,13 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+}
+
+.dark {
+  --vp-c-brand-1: hsl(347 100% 78%);
+  --vp-c-brand-2: hsl(347 74% 63%);
+  --vp-c-brand-3: hsl(347 70% 55%);
+  --vp-c-brand-soft: hsl(347 74% 63% / 0.2);
 }
 
 /**
