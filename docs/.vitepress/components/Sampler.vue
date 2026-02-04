@@ -1,0 +1,17 @@
+<script setup lang="ts">
+const props = defineProps({
+  name: {
+    type: String,
+    required: true,
+  },
+  type: {
+    type: String,
+    required: false,
+    default: "sampler2d",
+  },
+});
+</script>
+
+<template>
+  <code>{{ type }} {{ name }}</code>
+</template>

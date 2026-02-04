@@ -3,7 +3,7 @@ import { SidebarType } from "@viteplus/versions";
 export const latest: string = "1.21.11";
 
 export const sidebars: SidebarType = {
-  // root used for current version and default for versions without a custom navbar
+  // root used for latest version and default for versions without a custom navbar
   root: [
     {
       text: "Introduction",
@@ -16,8 +16,10 @@ export const sidebars: SidebarType = {
       text: "Shaders",
       items: [
         { text: "Core shaders", link: "/shaders/core" },
+        { text: "List of core shaders", link: "/shaders/core-list" },
         { text: "Includes", link: "/shaders/include" },
         { text: "Post effects", link: "/shaders/post" },
+        { text: "List of post effects", link: "/shaders/post-list" },
         { text: "Uniform blocks", link: "/shaders/uniforms" },
       ],
     },

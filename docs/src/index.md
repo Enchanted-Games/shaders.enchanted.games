@@ -4,8 +4,7 @@ layout: home
 
 hero:
   name: "Vanilla Shader Docs"
-  # text: "Vanilla Shader Docs"
-  tagline: Unoffical documentation for Minecraft Java Edition resourcepack shaders
+  tagline: Unoffical documentation for Minecraft Java Edition resource pack shaders
   actions:
     - theme: brand
       text: Introduction
@@ -32,4 +31,4 @@ This documentation is a WIP, things may be incomplete or missing!
 Modifying shaders with resourcepacks is not a supported feature by Mojang! It may change or be removed at any time, do so at your own risk.
 :::
 
-This documentation is open for contributions! If you spot anything missing, incorrect, or just want to help out, feel free to contribute to the [GitHub repo](https://github.com/Enchanted-Games/shaders.enchanted.games)!
+This documentation is open to contributions! If you spot anything missing, incorrect, or just want to help out, feel free to contribute to the [GitHub repo](https://github.com/Enchanted-Games/shaders.enchanted.games)!
